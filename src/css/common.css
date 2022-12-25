@@ -16,3 +16,48 @@ img {
   display: block;
   max-width: 100%;
 }
+span {
+  display: block;
+}
+
+.timer {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  gap: 20px;
+}
+
+.value {
+  padding: 0 10px;
+  font-size: 36px;
+  color: crimson;
+  font-weight: bold;
+  background-color: rgb(231, 240, 237);
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input {
+  font-size: 24px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border: 2px solid rgb(230, 221, 224);
+  border-radius: 4px;
+}
+
+button {
+  font-size: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+  /* background-color: transparent; */
+  padding: 5px 10px;
+  background-color: skyblue;
+  /* border: none; */
+  border: solid 1px transparent;
+  border-radius: 5px;
+}
