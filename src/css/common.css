@@ -30,7 +30,9 @@ span {
 .value {
   padding: 0 10px;
   font-size: 36px;
-  color: crimson;
+  /* color: crimson; */
+  color: tomato;
+  opacity: 0.3;
   font-weight: bold;
   background-color: rgb(231, 240, 237);
 }

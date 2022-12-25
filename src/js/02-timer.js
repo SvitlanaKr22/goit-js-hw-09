@@ -24,8 +24,10 @@ const clock = {
 };
 
 startBtnTimer.setAttribute('disabled', false);
+
 startBtnTimer.addEventListener('click', () => {
   timer.start();
+  for (const key in clock) clock[key].style.opacity = 1;
 });
 
 const timer = {
@@ -73,7 +75,7 @@ const options = {
     const currentTime = new Date();
     if (currentTime - timer.startTime > 0)
       Notify.failure('Please choose a date in the future', {
-        timeout: 2000,
+        timeout: 2500,
       });
     else {
       startBtnTimer.removeAttribute('disabled');
